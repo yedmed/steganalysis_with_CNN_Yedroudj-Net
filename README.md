@@ -1,4 +1,5 @@
 
+
 # ICAR
 1- Yedroudj-Net is a convolutional neural network implemented using the Caffe toolbox and running on a GPU card.
 It is composed of 7 blocks, a pre-processing block, five convolutional blocks, and a fully connected block made
@@ -59,3 +60,8 @@ HOW TO CITE the this work:
 
 [Mehdi Yedroudj, Frédéric Comby, and Marc Chaumont, " Yedrouj-Net: An efficient CNN for spatial steganalysis ", IEEE International Conference on Acoustics, 
 Speech and Signal Processing, ICASSP'2018, 15–20 April 2018, Calgary, Alberta, Canada, 5 pages]
+
+## Extra
+The SRM part is available on http://dde.binghamton.edu/download/.
+
+The trained model was obtained while training the Network against [WOW](http://dde.binghamton.edu/vholub/pdf/WIFS12_Designing_Steganographic_Distortion_Using_Directional_Filters.pdf) steganography algorithm, usning a payload of 0.4 bpp.

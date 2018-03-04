@@ -13,7 +13,7 @@ See the following papers for more background:
 
 **Graph**
 
-![Graph Visualization](docs/img/Yedroudj-Net-Scheme.png)
+![Graph Visualization](files/img/Yedroudj-Net-Scheme.png)
 
 **Overall architectre:**
 Input image

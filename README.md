@@ -1,6 +1,6 @@
 
 
-# ICAR
+# Yedroudj-Net: An efficient CNN for spatial steganalysis
 1- Yedroudj-Net is a convolutional neural network implemented using the Caffe toolbox and running on a GPU card.
 It is composed of 7 blocks, a pre-processing block, five convolutional blocks, and a fully connected block made
 of three fully connected layers, followed by a softmax (see Figure).

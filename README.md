@@ -64,4 +64,4 @@ Speech and Signal Processing, ICASSP'2018, 15–20 April 2018, Calgary, Alberta,
 ## Extra
 The SRM part is available on http://dde.binghamton.edu/download/.
 
-The trained model was obtained while training the Network against [WOW](http://dde.binghamton.edu/vholub/pdf/WIFS12_Designing_Steganographic_Distortion_Using_Directional_Filters.pdf) steganography algorithm, usning a payload of 0.4 bpp.
+The trained model was obtained while training the Network against [WOW](http://dde.binghamton.edu/vholub/pdf/WIFS12_Designing_Steganographic_Distortion_Using_Directional_Filters.pdf) steganography algorithm, using a payload of 0.4 bpp.

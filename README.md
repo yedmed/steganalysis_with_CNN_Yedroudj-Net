@@ -8,11 +8,14 @@ of three fully connected layers, followed by a softmax (see Figure).
 2- Yedroudj-Net network is designed for steganalysis purpose in a 2 classes scenario (Cover or Stego). 
 The prelimilarly results show better steganalysis performances compared to the state-of-the-art.
 
-See the following papers for more background:
-[ Yedrouj-Net: An efficient CNN for spatial steganalysi](https://arxiv.org/pdf/1803.00407.pdf) 
+**See the following papers for more background:**
 
-Authors: Mehdi Yedroudj, Frédéric Comby, and [Marc Chaumont](http://www.lirmm.fr/~chaumont/)
+   * [ Yedrouj-Net: An efficient CNN for spatial steganalysis](https://arxiv.org/pdf/1803.00407.pdf) 
 
+   * Authors: Mehdi Yedroudj, Frédéric Comby, and [Marc Chaumont](http://www.lirmm.fr/~chaumont/)
+
+**Copyright licence:**
+<a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Licence Creative Commons" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" /></a><br />Ce(tte) œuvre est mise à disposition selon les termes de la <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">Licence Creative Commons Attribution - Pas d’Utilisation Commerciale - Partage dans les Mêmes Conditions 4.0 International</a>. 
 ## "Yedroudj-Net" Model Visualization
 
 **Graph**

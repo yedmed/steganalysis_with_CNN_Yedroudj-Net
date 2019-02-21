@@ -59,7 +59,7 @@ Size: 128 x 1 x 1
 Activation function and Batch_Normalization are used through all blocks
 
 ## Notes
-HOW TO CITE the this work:
+HOW TO CITE this work:
 
 [Mehdi Yedroudj, Frédéric Comby, and Marc Chaumont, " Yedrouj-Net: An efficient CNN for spatial steganalysis ", IEEE International Conference on Acoustics, 
 Speech and Signal Processing, ICASSP'2018, 15–20 April 2018, Calgary, Alberta, Canada, 5 pages]

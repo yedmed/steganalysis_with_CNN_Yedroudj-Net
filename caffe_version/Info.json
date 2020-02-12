@@ -1,0 +1,26 @@
+{
+    "caffe flavor": "NVIDIA",
+    "caffe version": "0.15.14",
+    "creation time": "2017-10-09 16:09:34.189504",
+    "dataset_id": "20170110-121322-8be6",
+    "deploy file": "deploy.prototxt",
+    "digits version": "5.1-dev",
+    "framework": "caffe",
+    "id": "20171009-160934-27c0",
+    "image dimensions": [
+        256,
+        256,
+        1
+    ],
+    "image resize mode": "squash",
+    "job id": "20171009-160934-27c0",
+    "labels file": "labels.txt",
+    "mean file": "mean.binaryproto",
+    "model file": "original.prototxt",
+    "name": "yedroudj_S_wow_0.2_0.4*1",
+    "snapshot file": "snapshot_iter_150000.caffemodel",
+    "solver file": "solver.prototxt",
+    "status": "Aborted",
+    "train_val file": "train_val.prototxt",
+    "username": "midou"
+}

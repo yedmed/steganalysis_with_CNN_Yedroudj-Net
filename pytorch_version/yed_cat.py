@@ -23,9 +23,9 @@ from torchvision import transforms
 import torch.nn.functional as F
 
 # 30 SRM filtes
-from srm_filter_kernel import all_normalized_hpf_list
+from src.srm_filter_kernel import all_normalized_hpf_list
 # Global covariance pooling
-from MPNCOV import *  # MPNCOV
+from src.MPNCOV import *  # MPNCOV
 
 #cover_dir = '/home/ahmed/Documents/suniward0.4/base/TRN/'
 

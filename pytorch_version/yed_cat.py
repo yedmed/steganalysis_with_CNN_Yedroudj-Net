@@ -27,7 +27,7 @@ from srm_filter_kernel import all_normalized_hpf_list
 # Global covariance pooling
 from MPNCOV import *  # MPNCOV
 
-cover_dir = '/home/ahmed/Documents/suniward0.4/base/TRN/'
+#cover_dir = '/home/ahmed/Documents/suniward0.4/base/TRN/'
 
 IMAGE_SIZE = 256
 BATCH_SIZE = 32 // 2

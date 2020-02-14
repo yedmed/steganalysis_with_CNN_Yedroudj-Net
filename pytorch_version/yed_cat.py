@@ -620,7 +620,7 @@ def main(args):
     evaluate(model, device, test_loader, epoch, optimizer, best_acc, PARAMS_PATH)
 
 
-def myParseArgs():
+def myParseArgs(debug_bool):
     parser = argparse.ArgumentParser()
 
     parser.add_argument(
@@ -663,16 +663,27 @@ def myParseArgs():
         type=str,
         default=''
     )
-
-    args = parser.parse_args()
+    if debug_bool:
+        args=parser;
+    else:
+        args = parser.parse_args()
 
     return args
 
 
 if __name__ == '__main__':
-    args = myParseArgs()
-
+    #args = myParseArgs()
+    debug_bool = True
+    TRAIN_DIR = '/media/mehdi/castorx/elements/BOSS'
+    #tst_base_name = '/data/LIRMM/Steganalysis_project/HD_Bases/TST_100k_ASeed123'
+    args = myParseArgs(debug_bool=debug_bool)
+    if debug_bool:
+        args.statePath = None
+        args.gpuNum = '0'  # The reference number of the GPU in the system
+        args.TRAIN_DIR = TRAIN_DIR
+        args.VALID_DIR = TRAIN_DIR
+        args.TEST_DIR = TRAIN_DIR
+        #args.test_dir = tst_base_name
+        #args.model_name = 'JUNIWARD_P01
     os.environ['CUDA_VISIBLE_DEVICES'] = args.gpuNum
     main(args)
-
-
